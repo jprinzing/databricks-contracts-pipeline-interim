@@ -17,7 +17,7 @@ Date Parsing: Governance Date is parsed using pd.to_datetime(..., errors='coerce
 
 Column Normalization: Column names are standardized using regex.
 
-String Cleanup: Whitespace is trimmed and "NULL" strings are replaced with actual nulls.
+String Cleanup: Whitespace is trimmed and "NAN" strings are replaced with actual nulls.
 
 Contract Lead Parsing: Contract_Lead is split into arrays if comma-separated.
 
